@@ -9,19 +9,19 @@ function About() {
           <div className="about-text">
             <p>
               I am a web developer who recently transitioned into the field. 
-              I specialize in React and modern frontend development, and I build things because I 
-              genuinely enjoy the craft. Currently looking for my first professional role where I
-               can grow fast and contribute from day one.
+              I specialize in React and modern frontend development, and backend development with Node.js.
+              Currently looking for my first professional role where I
+               can grow fast and contribute.
             </p>
             <p>
-              My journey in web development started with a curiosity and passion for creating applications. 
-              I have since honed my skills through various projects, both personal and to improve my current
-              work. I am always eager to learn new technologies and stay updated with industry trends.
+              My journey in web development started with a drive to improve processes at work. With the rise of AI,
+              I have been able to leverage the techology to quickly learn and build projects. 
+              I am always eager to learn new technologies and stay updated with industry trends.
             </p>
             <p>
               When I am not coding, you can find me spending time with my growing family. 
-              Otherwise, I am taming my wild yard in the summer while listening to a fictional audiobook or
-              occupying myself indoors to get away from the Pacific Northwest rain.
+              Otherwise, I am taming my wild yard in the summer while listening to an audio book or
+              occupying myself indoors away from the Pacific Northwest rain.
             </p>
           </div>
           <div className="about-stats">
