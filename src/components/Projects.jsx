@@ -2,13 +2,15 @@ import './Projects.css';
 import OCRimage from '../assets/OCR-scanner-image.png';
 import Quizimage from '../assets/DeliveryWarehouseQuiz.png';
 import Journalimage from '../assets/LocationVideoJournal.png';
+import Bakerysite from '../assets/Bakerysite.png';
+import Shoppinglist from '../assets/Shoppinglist.png';
 
 function Projects() {
   const projects = [
     {
       title: 'OCR Product Check-Off',
       description: 'A web application that utilizes OCR technology to scan product labels and generate check-off lists for delivery trucks.',
-      tags: ['React', 'Firebase', 'Tailwind CSS'],
+      tags: ['React', 'Firebase', 'Tailwind CSS', 'Bolt.new'],
       image: OCRimage,
       github: 'https://github.com/patrickhilmoe/DeliveryStaging',
       demo: 'https://staginglist.netlify.app'
@@ -16,7 +18,7 @@ function Projects() {
     {
       title: 'Appliance Delivery and Warehouse Quiz',
       description: 'Quiz quiz application for training delivery installers and warehouse workers on product knowledge and safety protocols.',
-      tags: ['React', 'Supabase', 'Tailwind CSS'],
+      tags: ['React', 'Supabase', 'Tailwind CSS', 'Claude'],
       image: Quizimage,
       github: 'https://github.com/patrickhilmoe/DeliveryDept-Quiz',
       demo: 'https://deliverywarehousequiz.netlify.app/'
@@ -24,27 +26,27 @@ function Projects() {
     {
       title: 'Location Video Journal',
       description: 'A spatial journaling application for documenting location-based video entries.',
-      tags: ['React', 'Supabase', 'Tailwind CSS'],
+      tags: ['React', 'Supabase', 'Tailwind CSS', 'Claude'],
       image: Journalimage,
       github: 'https://github.com/patrickhilmoe/location-video-log',
       demo: 'https://locationvideolog.netlify.app/'
     },
-    // {
-    //   title: 'Weather Dashboard',
-    //   description: 'Real-time weather application with location tracking, forecasts, and interactive maps.',
-    //   tags: ['JavaScript', 'APIs', 'CSS3'],
-    //   image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-    //   github: '#',
-    //   demo: '#'
-    // },
-    // {
-    //   title: 'Social Media Analytics',
-    //   description: 'Analytics dashboard for tracking social media performance and engagement metrics.',
-    //   tags: ['React', 'D3.js', 'Node.js'],
-    //   image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-    //   github: '#',
-    //   demo: '#'
-    // },
+    {
+      title: 'Bakery Website',
+      description: 'A modern bakery website displaying the company and the menu.',
+      tags: ['React', 'GSAP', 'Claude'],
+      image: Bakerysite,
+      github: 'https://github.com/patrickhilmoe/bakerysite.github.io',
+      demo: '#'
+    },
+    {
+      title: 'Shopping List App',
+      description: 'A Shopping list applications that allows users to create and manage their shopping list',
+      tags: ['React', 'Firebase', 'Claude'],
+      image: Shoppinglist,
+      github: 'https://github.com/patrickhilmoe/shoppinglist',
+      demo: '#'
+    },
     // {
     //   title: 'Recipe Finder App',
     //   description: 'Recipe search and meal planning application with nutritional information and shopping lists.',

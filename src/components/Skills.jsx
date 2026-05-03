@@ -4,15 +4,15 @@ function Skills() {
   const skillCategories = [
     {
       title: 'Frontend',
-      skills: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap']
+      skills: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'GSAP']
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'Express', 'REST APIs', 'Supabase', 'Firebase']
+      skills: ['Node.js', 'Express', 'REST APIs', 'Firebase', 'Supabase']
     },
     {
       title: 'Tools & Others',
-      skills: ['Git','Figma', 'Webpack', 'Vite']
+      skills: ['Git','Figma', 'Vite', 'Vercel', "Netlify"]
     }
   ];
 
